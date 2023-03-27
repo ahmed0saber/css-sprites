@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.heart-icon {
+    width: 30px;
+    height: 28.42px;
+    background-image: url("./default.svg");
+    background-position-x: -136px;
+    background-position-y: -16px;
+}
+
+.heart-icon.active {
+    background-image: url("./active.svg");
+}
